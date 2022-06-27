@@ -2,7 +2,7 @@
 //这个函数可以拿到我们给ajax提供的配置对象
 $.ajaxPrefilter(function(options){
     
-    options.url='http://ajax.frontend.itheima.net' + options.url
+    options.url='http://124.222.201.19:5000' + options.url
     
     console.log(options.url);
 })
